@@ -60,13 +60,10 @@ FraudSentinel intercepts transaction events directly at the **bank payment switc
 7. **Human-in-the-Loop Analyst Operations**: Complete investigation dossier workflow with simulated card freeze/unfreeze, step-up 2FA challenges, case escalation, and automated feedback loop dataset exports.
 
 ---
-
-## ⚡ 1-Click Quickstart (Windows)
-
+##
 To start both the **FastAPI Backend (Port 8000)** and the **React + Vite Frontend (Port 5173)** simultaneously:
 
-Double-click:
-👉 **`run_all.bat`**
+Double-click: **`run_all.bat`**
 
 It automatically opens your browser tabs to:
 * **Analyst Live Radar Map**: [http://localhost:5173/analyst/live](http://localhost:5173/analyst/live)
@@ -75,7 +72,7 @@ It automatically opens your browser tabs to:
 
 ---
 
-## 🛠️ Manual Terminal Launch
+##  Manual Terminal Launch
 
 ### 1. Launch FastAPI Backend (Port 8000)
 ```powershell
@@ -117,7 +114,7 @@ tests/test_bank_scenarios.py::test_scenario_normal_new_location PASSED          
 
 ---
 
-## 📂 Project Directory Structure
+## Project Directory Structure
 
 ```
 fraud-system/
@@ -162,7 +159,7 @@ fraud-system/
 
 ---
 
-## 📄 Documentation Suite
+## Documentation Suite
 
 * [System Architecture Specification](docs/PROJECT_ARCHITECTURE.md)
 * [Backend System Guide](docs/BACKEND_SYSTEM_GUIDE.md)
